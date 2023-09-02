@@ -1,0 +1,38 @@
+package ArithmeticProgram;
+
+import java.util.Scanner;
+
+public class Main {
+
+	Scanner sc=new Scanner(System.in);
+	
+	int num1 = sc.nextInt();
+	int num2 = sc.nextInt();
+ 
+      int add = num1 + num2;
+      int sub = num1 - num2;
+      int mult = num1 * num2;
+      int div = num1 / num2;
+      int modul = num1 % num2;
+       
+	
+    }
+
+package ArithmeticProgram;
+
+public class SubMain {
+
+	public static void main(String[] args) {
+		
+		Main Arri = new Main();
+		
+		System.out.println(Arri.add);
+		System.out.println(Arri.sub);
+		System.out.println(Arri.mult);
+		System.out.println(Arri.div);
+		System.out.println(Arri.modul);
+		
+
+	}
+
+}
